@@ -1,0 +1,74 @@
+body{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin-left:100px; margin-right:100px;}
+.body{margin-left:100px; margin-right:100px;}
+header{display:flex; font-size:31px;
+justify-content:space-between;}
+.logo{align-items: center;}
+.pavlog{min-width:28.44px; min-height:32px;}
+.future {font-weight:900;color:#1A1A1A; margin:20px;}
+.top{display:flex;list-style:none;font-size:16px;gap:20px; justify-content:center;
+text-decoration:none;}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+.topelem .link:hover{color:orange; text-decoration:underline;}
+nav{text-align:center; width:100%;justify-content:center; }
+.link {color:#4E4B66;}
+.contact {width:175px; height:56px; border-radius:24px; gap:10px;
+padding-top:16px; padding-bottom:16px; padding-left:36px; padding-right:36px;
+text-align:center;font-size:14px;color:#F15A24;
+border-color:#F15A24;}
+.gridas{display:grid; margin-top:20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+justify-items:center;}
+.hhh{font-size: 61px; align-items:center; margin:0; font-weight:900;}
+.uzrasas{display:grid;  align-items:center;margin:0; font-size:20px;}
+.read {width:174px; height:56px;background-color:#F15A24; color:white;border:0;
+    align-items:center; margin-top:10px;
+padding-top:16px; padding-bottom:16px; padding-left:48px; padding-right:48px;}
+.foto{ object-fit:fill;width:100%;}
+.dezutes{display:flex; width: 100%; height:300px; 
+    grid-gap:10px;justify-content: space-between;}
+.vaikas{width:auto; height:214px;background-color:
+    #F7F7F7; gap:20px;border-radius:20px;padding:32px;}
+.pavadinimas{font-size:25px; color:#1A1A1A;margin-top:30px; font-weight:700;}
+.apibudinimas{font-size:16px; color:#4E4B66;text-justify:end;margin-top:50px;
+    font-weight:400;}
+.burger{background-color:#F15A24; border-radius:4px;border:0;color:white;}
+
+@media(min-width:1120px)
+{.burger{display:none}}
+
+@media (max-width:1485px)
+{.body{margin:50px;}
+.vaikas{padding:24px;}
+.pavadinimas{font-size:20px;}}
+
+
+@media (max-width:1355px)
+{.gridas{grid-template-columns: 1fr;
+    grid-template-rows: auto; text-align: center;}
+.hhh{grid-area:1/1/2/3;max-width:633px;}
+.uzrasas{grid-area:2/1/3/2;}
+.read{justify-self:center;}
+.dezute{width:221px; height:216px;}
+.apibudinimas{margin-top:20px;}
+.contact{padding-left:24px; padding-right:24px;}}
+
+@media(max-width:1120px)
+{.top {display:none; }
+.contact{display:none;}
+.hhh {font-size:49px;}
+.read {padding-left:32px; padding-right:32px;}
+.dezutes{display:grid; grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;}
+.vaikas{width:auto; height:192px; padding:24px;grid-gap:20px;}}
+
+@media(max-width:565px)
+{.hhh{font-size:39px;}
+.uzrasas{font-size:16px;}
+.dezutes{grid-template-columns: 1fr;
+grid-template-rows: repeat(4, 1fr);}
+.vaikas{height:186px;}
+.apibudinimas{font-size:14px;}}

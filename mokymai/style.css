@@ -1,0 +1,32 @@
+.pirma-eilute {background-color: grey; 
+     height: 50px;}
+.antra-eilute {width: max-content; height: 150px}
+ul {color: black; display: flex; backgroud-image: url{"fona/zaliasfonas.webp"}
+justify-content: space-between; list-style: none; padding:0;}
+a:hover {color:red}
+img {height:50px; display: flex; width:1200px;}
+.apacia-kaire {position:absolute; bottom:8px; left:16px;}
+.dezutenav {background-color: whitesmoke;
+     width: 250px; height: 30px; padding: 0; margin: 0;
+    text-align: center; display:flex; }
+    a:hover {transform: underline}
+    .du-sezonai { height: 300px;
+    background-color: green; color: white; display:flex; 
+ justify-content: center; size: 24}
+.planai {display:flex; justify-content: space-between;}
+
+.planas{width:200px; height:200px; text-align: center;
+}
+.planas1{background-color:rgb(220, 188, 188)}
+.planas2{background-color:greenyellow}
+.planas3{background-color:rgb(220, 188, 188)}
+.planas4{background-color:greenyellow}
+
+.ft {width:200px; height: 100px; background-color: lightskyblue;
+}
+.infoblokai {display: flex; justify-content: space-between}
+.te {width:200px; height: 300px; background-color:aquamarine}
+.ftteks {display: flex; justify-content:space-between}
+.box {width:100px; height:20px; background-color:black;}
+.kontakt {background-color: grey; 
+    height: 50px;text-align:center}

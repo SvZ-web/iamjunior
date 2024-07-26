@@ -1,0 +1,18 @@
+/*body{
+background-color:$primary-color;
+color:$seconday-color;}
+.pirmas {background-color:$seconday-color; color:$primary-color;}
+.antras{background-color:green; color:$primary-color;}
+
+
+.mygtukas{@include border-radius(30px);
+ color:red; margin:10px;}*/
+.skaicius-vienas {
+  background-color: red;
+  color: black;
+}
+
+.raide-vienas {
+  background-color: green;
+  color: yellow;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+@import 'variables';
+
+body{
+background-color:$primary-color;
+color:$seconday-color;}
+.pirmas {background-color:$seconday-color; color:$primary-color;}
+.antras{background-color:green; color:$primary-color;}
+
+
+.mygtukas{@include border-radius(30px);
+ color:red; margin:10px;
+color:white;}
+
+ 
+
+  
+
+
+
+
+    

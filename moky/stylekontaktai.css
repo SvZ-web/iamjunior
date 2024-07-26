@@ -1,0 +1,16 @@
+body {background-color:lightgrey; margin:0}
+h1 {height:40px; background-color: rgb(64, 63, 63); color:white;
+text-align:center; margin:0;}
+.navbox {height:40px; width: 100%; background-color: rgb(64, 63, 63);
+display:flex; gap:8px; justify-content:center;}
+ul{color:white; display:flex; justify-content:center; padding:0;
+margin:0; align-items:center;justify-content:space-around;}
+a:hover {color:green;}
+footer {height:40px; background-color: rgb(64, 63, 63); color:white;
+position:absolute;width:100%;}
+section {height:250px; width:400px; background-color:white;color:black;
+justify-content:center; text-align:center;
+position:relative;margin-bottom:100px;}
+img {width:50px; display:flex;; align-items:center;
+right:175px;position:absolute;}
+
