@@ -2,7 +2,7 @@
 let pilietis = true;
 let trukme = 30;
 
-if (amzius <=15 && pilietis === true && trukme <= 30)
+if (amzius <=18 && pilietis === true && trukme <= 30)
    {console.log ("pilietybe gaus"); }
 else {console.log ("pilietybes negaus");}*/
 
